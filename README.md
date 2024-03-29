@@ -20,11 +20,11 @@ Install using your package manager of choice.
 
 ```bash
 # yarn
-yarn add @formkit/auto-animate
+yarn add @moeindana/auto-animate
 # npm
-npm install @formkit/auto-animate
+npm install @moeindana/auto-animate
 # pnpm
-pnpm add @formkit/auto-animate
+pnpm add @moeindana/auto-animate
 ```
 
 Boom! Done. That was fast! 🐇

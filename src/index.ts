@@ -775,6 +775,11 @@ export interface AutoAnimateOptions {
    * recommended to use this.
    */
   disrespectUserMotionPreference?: boolean
+
+  /**
+   * default enabled state
+   */
+  enabled?: boolean
 }
 
 /**
@@ -817,7 +822,11 @@ export default function autoAnimate(
       !isPlugin(config) &&
       !config.disrespectUserMotionPreference
     if (!isDisabledDueToReduceMotion) {
-      enabled.add(el)
+      if ("enabled" in config) {
+        config.enabled ? enabled.add(el) : enabled.delete(el)
+      } else {
+        enabled.add(el)
+      }
       if (getComputedStyle(el).position === "static") {
         Object.assign(el.style, { position: "relative" })
       }
