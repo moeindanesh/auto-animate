@@ -2,7 +2,7 @@
   "name": "@moeindana/auto-animate",
   "version": "0.9.0",
   "description": "Add motion to your apps with a single line of code.",
-  "private": true,
+  "private": false,
   "keywords": [
     "animation",
     "transition",
