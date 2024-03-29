@@ -302,7 +302,7 @@ async function main() {
   // await qwikBuild()
   await declarationsBuild()
   await bundleDeclarations()
-  await nuxtBuild()
+  // await nuxtBuild()
   await addPackageJSON()
   await addAssets()
   await outputSize()
