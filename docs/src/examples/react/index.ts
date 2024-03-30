@@ -3,7 +3,7 @@ export default {
     language: "jsx",
     ext: "jsx",
     example: `import { useState } from 'react'
-import { useAutoAnimate } from '@formkit/auto-animate/react'
+import { useAutoAnimate } from '@moeindana/auto-animate/react'
 
 const App = function () {
   const [items, setItems] = useState([0, 1, 2])

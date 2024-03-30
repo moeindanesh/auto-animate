@@ -3,7 +3,7 @@ export default {
     language: "jsx",
     ext: "jsx",
     example: `import { useSignal } from '@builder.io/qwik'
-import { useAutoAnimate } from '@formkit/auto-animate/qwik'
+import { useAutoAnimate } from '@moeindana/auto-animate/qwik'
 
 const App = function () {
   const items = useSignal([0, 1, 2])

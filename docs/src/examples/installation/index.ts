@@ -1,16 +1,16 @@
 export default {
   yarn: {
-    example: "yarn add @formkit/auto-animate",
+    example: "yarn add @moeindana/auto-animate",
     language: "shell",
     title: "~/my-app",
   },
   npm: {
-    example: "npm install @formkit/auto-animate",
+    example: "npm install @moeindana/auto-animate",
     language: "shell",
     title: "~/my-app",
   },
   pnpm: {
-    example: "pnpm add @formkit/auto-animate",
+    example: "pnpm add @moeindana/auto-animate",
     language: "shell",
     title: "~/my-app",
   },

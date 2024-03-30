@@ -147,8 +147,8 @@ import IconQwik from "../components/IconQwik.vue"
     <h2 id="usage-react">React hook</h2>
     <p>
       React users can use the hook <code>useAutoAnimate</code> by importing it
-      from <code>@formkit/auto-animate/react</code>. This hook returns a ref to
-      apply to the parent element, as well as a function to
+      from <code>@moeindana/auto-animate/react</code>. This hook returns a ref
+      to apply to the parent element, as well as a function to
       <a href="#usage-disable">enable or disable</a> animations.
     </p>
     <CodeExample :examples="reactHook" title="App" />
@@ -160,14 +160,16 @@ import IconQwik from "../components/IconQwik.vue"
     <h2 id="usage-vue">Vue directive</h2>
     <p>
       Vue users can globally register the
-      <code>v-auto-animate</code> directive or install the Nuxt module. This makes adding transitions and
-      animations as easy as applying an attribute. Import the Vue plugin from
-      <code>@formkit/auto-animate/vue</code> and register it with your Vue app:
+      <code>v-auto-animate</code> directive or install the Nuxt module. This
+      makes adding transitions and animations as easy as applying an attribute.
+      Import the Vue plugin from <code>@moeindana/auto-animate/vue</code> and
+      register it with your Vue app:
     </p>
     <CodeExample :examples="vueDirectiveMain" title="main" />
     <AsideTip>
       If you prefer to not register the Vue directive globally, you can import
-      it directly into the component where you want to use it <code>import { vAutoAnimate } from '@formkit/auto-animate'</code>.
+      it directly into the component where you want to use it
+      <code>import { vAutoAnimate } from '@moeindana/auto-animate'</code>.
     </AsideTip>
     <p>
       Once you’ve registered the plugin, it can be applied anywhere in your
@@ -193,9 +195,9 @@ import IconQwik from "../components/IconQwik.vue"
       <a href="usage-disable">enable and disable</a> animations.
     </p>
     <p>
-      Import the composable from <code>@formkit/auto-animate/vue</code> (the
-      Nuxt module will automatically import <code>useAutoAnimate</code> for you), and
-      call it in <code>script setup</code> to create a
+      Import the composable from <code>@moeindana/auto-animate/vue</code> (the
+      Nuxt module will automatically import <code>useAutoAnimate</code> for
+      you), and call it in <code>script setup</code> to create a
       <a
         href="https://vuejs.org/guide/essentials/template-refs.html#template-refs"
         target="_blank"
@@ -214,8 +216,8 @@ import IconQwik from "../components/IconQwik.vue"
     <h2 id="usage-preact">Preact hook</h2>
     <p>
       Preact users can use the hook <code>useAutoAnimate</code> by importing it
-      from <code>@formkit/auto-animate/preact</code>. This hook returns a ref to
-      apply to the parent element, as well as a function to
+      from <code>@moeindana/auto-animate/preact</code>. This hook returns a ref
+      to apply to the parent element, as well as a function to
       <a href="#usage-disable">enable or disable</a> animations.
     </p>
     <CodeExample :examples="preactHook" title="App" />
@@ -224,7 +226,7 @@ import IconQwik from "../components/IconQwik.vue"
     <h2 id="usage-solid">Solid Primitive</h2>
     <p>
       Solid users can use the function <code>createAutoAnimate</code> by
-      importing it from <code>@formkit/auto-animate/solid</code>. This hook
+      importing it from <code>@moeindana/auto-animate/solid</code>. This hook
       returns a ref to apply to the parent element, as well as a function to
       <a href="#usage-disable">enable or disable</a> animations.
     </p>
@@ -234,7 +236,7 @@ import IconQwik from "../components/IconQwik.vue"
     <h3 id="usage-solid-directive">Solid Directive</h3>
     <p>
       Solid users can also use the directive <code>autoAnimate</code> by
-      importing it from <code>@formkit/auto-animate/solid</code>.
+      importing it from <code>@moeindana/auto-animate/solid</code>.
     </p>
     <CodeExample :examples="solidDirective" title="App" />
 
@@ -259,8 +261,8 @@ import IconQwik from "../components/IconQwik.vue"
       Angular users can globally register the
       <code>auto-animate</code> directive. This makes adding transitions and
       animations as easy as applying an attribute. Import the AutoAnimateModule
-      from <code>@formkit/auto-animate/angular</code> and register it with your
-      Angular app:
+      from <code>@moeindana/auto-animate/angular</code> and register it with
+      your Angular app:
     </p>
     <CodeExample :examples="angularDirectiveMain" title="App" />
     <p>
@@ -278,7 +280,7 @@ import IconQwik from "../components/IconQwik.vue"
     <!-- <h2 id="usage-qwik">Qwik hook</h2>
     <p>
       Qwik users can use the hook <code>useAutoAnimate</code> by importing it
-      from <code>@formkit/auto-animate/qwik</code>. This hook returns a ref to
+      from <code>@moeindana/auto-animate/qwik</code>. This hook returns a ref to
       apply to the parent element, as well as a function to
       <a href="#usage-disable">enable or disable</a> animations.
     </p>

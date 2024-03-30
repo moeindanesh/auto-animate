@@ -3,7 +3,7 @@ export default {
     language: "jsx",
     ext: "jsx",
     example: `import { useState } from 'preact/hooks'
-import { useAutoAnimate } from '@formkit/auto-animate/preact'
+import { useAutoAnimate } from '@moeindana/auto-animate/preact'
 
 const App = function () {
   const [items, setItems] = useState(["🎁", "📦", "🚚", "💪", "🐽", "🐸", "🐻", "🪱", "🪳"])

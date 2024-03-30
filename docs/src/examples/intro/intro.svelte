@@ -1,5 +1,5 @@
 <script>
-  import autoAnimate from "@formkit/auto-animate"
+  import autoAnimate from "@moeindana/auto-animate"
 </script>
 
 <ul use:autoAnimate>

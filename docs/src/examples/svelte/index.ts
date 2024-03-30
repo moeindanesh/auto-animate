@@ -3,7 +3,7 @@ export default {
     ext: "svelte",
     language: "html",
     example: `<script>
-  import autoAnimate from '@formkit/auto-animate';
+  import autoAnimate from '@moeindana/auto-animate';
   let tags = ['Rock', 'Punk'];
   function addItem(e) {
     if (e.which === 13) {

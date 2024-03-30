@@ -1,4 +1,4 @@
-import { createAutoAnimate } from "@formkit/auto-animate/solid"
+import { createAutoAnimate } from "@moeindana/auto-animate/solid"
 import { createSignal, Show } from "solid-js"
 
 const Dropdown = () => {

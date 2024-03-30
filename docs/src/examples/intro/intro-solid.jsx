@@ -1,10 +1,8 @@
-import { createAutoAnimate } from '@formkit/auto-animate/solid'
+import { createAutoAnimate } from "@moeindana/auto-animate/solid"
 
-function MyList () {
+function MyList() {
   const [animationParent] = createAutoAnimate()
   return (
-    <ul ref={animationParent}>
-      {/* 🪄 Magic animations for your list */}
-    </ul>
+    <ul ref={animationParent}>{/* 🪄 Magic animations for your list */}</ul>
   )
 }

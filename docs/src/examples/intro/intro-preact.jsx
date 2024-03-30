@@ -1,10 +1,8 @@
-import { useAutoAnimate } from '@formkit/auto-animate/preact'
+import { useAutoAnimate } from "@moeindana/auto-animate/preact"
 
-function MyList () {
+function MyList() {
   const [animationParent] = useAutoAnimate()
   return (
-    <ul ref={animationParent}>
-      {/* 🪄 Magic animations for your list */}
-    </ul>
+    <ul ref={animationParent}>{/* 🪄 Magic animations for your list */}</ul>
   )
 }

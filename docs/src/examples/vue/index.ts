@@ -3,7 +3,7 @@ const vueDirectiveMain = {
     ext: "ts",
     language: "typescript",
     example: `import { createApp } from 'vue'
-import { autoAnimatePlugin } from '@formkit/auto-animate/vue'
+import { autoAnimatePlugin } from '@moeindana/auto-animate/vue'
 import App from 'App.vue'
 
 createApp(App).use(autoAnimatePlugin).mount('#app')
@@ -14,7 +14,7 @@ createApp(App).use(autoAnimatePlugin).mount('#app')
     ext: "ts",
     example: `// nuxt.config.ts
 export default defineNuxtConfig({
-  modules: ['@formkit/auto-animate/nuxt'],
+  modules: ['@moeindana/auto-animate/nuxt'],
 })
 `,
   },
@@ -53,7 +53,7 @@ const vueComposable = {
     language: "html",
     example: `<script setup>
 import { ref } from 'vue'
-import { useAutoAnimate } from '@formkit/auto-animate/vue'
+import { useAutoAnimate } from '@moeindana/auto-animate/vue'
 
 const items = ref(["React", "Vue", "Svelte", "Angular"])
 

@@ -25,11 +25,11 @@ export default defineNuxtModule({
     addImports([
       {
         name: "autoAnimate",
-        from: "@formkit/auto-animate",
+        from: "@moeindana/auto-animate",
       },
       {
         name: "useAutoAnimate",
-        from: "@formkit/auto-animate/vue",
+        from: "@moeindana/auto-animate/vue",
       },
     ])
   },

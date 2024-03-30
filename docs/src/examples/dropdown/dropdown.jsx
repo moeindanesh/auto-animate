@@ -1,5 +1,5 @@
-import { useState, useRef, useEffect } from 'react'
-import autoAnimate from '@formkit/auto-animate'
+import { useState, useRef, useEffect } from "react"
+import autoAnimate from "@moeindana/auto-animate"
 
 const Dropdown = () => {
   const [show, setShow] = useState(false)
@@ -11,10 +11,14 @@ const Dropdown = () => {
 
   const reveal = () => setShow(!show)
 
-  return <div ref={parent}>
-    <strong className="dropdown-label" onClick={reveal}>Click me to open!</strong>
-    { show && <p className="dropdown-content" >Lorum ipsum...</p> }
-  </div>
+  return (
+    <div ref={parent}>
+      <strong className="dropdown-label" onClick={reveal}>
+        Click me to open!
+      </strong>
+      {show && <p className="dropdown-content">Lorum ipsum...</p>}
+    </div>
+  )
 }
 
 export default Dropdown

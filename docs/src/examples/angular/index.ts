@@ -3,7 +3,7 @@ const angularDirectiveMain = {
     ext: "angular",
     language: "jsx",
     example: `import { NgModule } from '@angular/core';
-import { AutoAnimateModule } from '@formkit/auto-animate/angular'
+import { AutoAnimateModule } from '@moeindana/auto-animate/angular'
 
 @NgModule({
   declarations: [AppComponent],

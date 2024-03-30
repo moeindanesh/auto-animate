@@ -3,7 +3,7 @@ const solidPrimitive = {
     language: "tsx",
     ext: "tsx",
     example: `import { createSignal, For, Show } from 'solid-js'
-import { createAutoAnimate } from '@formkit/auto-animate/solid'
+import { createAutoAnimate } from '@moeindana/auto-animate/solid'
 
 const App = function () {
   const [parent, setEnabled] = createAutoAnimate(/* optional config */)
@@ -41,7 +41,7 @@ const solidDirective = {
     language: "tsx",
     ext: "tsx",
     example: `import { createSignal, For, Show } from 'solid-js'
-import { createAutoAnimateDirective } from '@formkit/auto-animate/solid'
+import { createAutoAnimateDirective } from '@moeindana/auto-animate/solid'
 
 const App = function () {
   const autoAnimate = createAutoAnimateDirective()

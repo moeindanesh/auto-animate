@@ -2,7 +2,7 @@ const pluginMain = {
   js: {
     ext: "js",
     language: "javascript",
-    example: `import autoAnimate, { getTransitionSizes } from '@formkit/auto-animate'
+    example: `import autoAnimate, { getTransitionSizes } from '@moeindana/auto-animate'
 
 autoAnimate(parentElement, (el, action, oldCoords, newCoords) => {
   let keyframes

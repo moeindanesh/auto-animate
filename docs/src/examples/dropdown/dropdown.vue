@@ -1,6 +1,6 @@
 <script setup>
 import { ref, onMounted } from "vue"
-import autoAnimate from "@formkit/auto-animate"
+import autoAnimate from "@moeindana/auto-animate"
 
 const dropdown = ref() // we need a DOM node
 const show = ref(false)
